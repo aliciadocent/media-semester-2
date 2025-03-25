@@ -16,32 +16,38 @@ export default function Sidebar() {
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+          <a
+            href="/"
+            className="flex items-center ps-5 mb-5 pt-4"
+          >
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+              Basic Javascript
+            </span>
+          </a>
+
           <ul className="space-y-2 font-medium">
             <li>
               <a
-                href="#"
+                href="/"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
-                <span className="ms-3">Dashboard</span>
+                <span className="ms-3">Home</span>
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/gettingstarted"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
-                <span className="ms-3">Kanban</span>
-                <span className="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">
-                  Pro
-                </span>
+                <span className="ms-3">Getting started</span>
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/variabelen"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
-                <span className="ms-3">Inbox</span>
+                <span className="ms-3">Variablen</span>
               </a>
             </li>
             <li>
